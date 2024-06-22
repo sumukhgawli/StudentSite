@@ -1,0 +1,49 @@
+.studymodes-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.studymodes-container {
+  width: 90%;
+}
+.studymodes-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.studymodes-option-heading {
+  margin: 5px;
+  padding: 10px 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: #e8e8f7;
+}
+.studymodes-footter-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: flex-start;
+  padding: 25px 45px;
+  background-color: azure;
+  border-radius: 20px;
+}
+.studymodes-footter-btn {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.studymodes-footter-desc-text {
+  font-size: 25px;
+  font-weight: 500;
+  color: #292967;
+  margin-bottom: 10px;
+}
+.studymodes-footter-desc-subtext {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
