@@ -21,7 +21,7 @@ const Campus = () => {
             <p className="campus-heading-subtext">CAMPUSES</p>
           </div>
           <div className="campus-btn-container">
-            <Enqbtn />
+            <Enqbtn inverted={true} />
           </div>
         </div>
         <Slider className="carousel-sucesstor-images" {...settings}>

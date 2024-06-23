@@ -33,6 +33,10 @@
   padding-right: 20px;
   padding-top: 50px;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .programs-option-subheading1,
 .programs-option-subheading2 {
@@ -48,7 +52,7 @@
   background-color: #292967;
   position: absolute;
   top: -15%;
-  left: 27%;
+  /* left: 27%; */
 }
 .programs-options {
   width: 90%;
