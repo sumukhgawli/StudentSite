@@ -4,6 +4,9 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Programs from "./components/Programs";
 import Studymodes from "./components/Studymodes";
+import Sucessstor from "./components/Sucessstor";
+import Campus from "./components/Campus";
+import Dahisar from "./components/Dahisar";
 
 function App() {
   return (
@@ -13,6 +16,12 @@ function App() {
       <Aboutus />
       <Programs/>
       <Studymodes/>
+      <Sucessstor/>
+      <Campus/>
+      <Dahisar/>
+      <div className="footer">
+        <p>Copyright © 2021 Universal High School</p>
+      </div>
     </div>
   );
 }

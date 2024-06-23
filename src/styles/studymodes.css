@@ -1,4 +1,15 @@
+.yellow-studymodes {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  /* background-color: yellow; */
+}
+
 .studymodes-wrapper {
+  position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -7,13 +18,24 @@
   text-align: center;
 }
 .studymodes-container {
-  width: 90%;
+  z-index: 5;
+
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 80%;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .studymodes-option {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: -12%;
 }
 .studymodes-option-heading {
   margin: 5px;
@@ -24,11 +46,15 @@
 }
 .studymodes-footter-desc {
   display: flex;
-  flex-direction: column;
+  background-color: white;
+
+  flex-direction: row;
   text-align: start;
-  align-items: flex-start;
-  padding: 25px 45px;
-  background-color: azure;
+  align-items: center;
+  justify-content: center;
+  padding: 45px 75px;
+  /* background-color: azure; */
+  box-shadow: -1px 5px 39.1px 1px #42424217, inset 2px 4px 5px 0px #ffffff40;
   border-radius: 20px;
 }
 .studymodes-footter-btn {
@@ -46,4 +72,11 @@
 .studymodes-footter-desc-subtext {
   margin-bottom: 20px;
   font-size: 15px;
+}
+.prepimg-studymodes {
+  width: 381px;
+  object-fit: contain;
+  /* margin-right: 50px; */
+  margin-left: 100px;
+  height: 200px;
 }

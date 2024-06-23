@@ -37,19 +37,20 @@
   background-color: #E8E8F7;
   position: absolute;
   left: 18%;
+  margin-bottom: 20px;
 }
 .aboutus-img1 {
   width: 300px;
   height: 200px;
   position: absolute;
-  top: 5%;
+  /* top: 5%; */
   left: -12%;
 }
 .aboutus-img12 {
   width: 300px;
   height: 200px;
   position: absolute;
-  top: 25%;
+  /* top: 25%; */
   right: -12%;
 }
 .aboutus-text {
@@ -76,9 +77,10 @@
   color: #292967;
   margin-bottom: 8px;
 }
-.aboutus-footter {
+.aboutus-footter ,.aboutus-footter2 {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
