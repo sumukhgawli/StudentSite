@@ -30,6 +30,7 @@ const Aboutus = () => {
           <div className="aboutus-footter">
             <Enqbtn />
           </div>
+          <img src={about1} alt="about 1" className="aboutus-for-mobile" />
         </div>
       </div>
       <div className="aboutus-wrapper2">
@@ -52,6 +53,7 @@ const Aboutus = () => {
           <div className="aboutus-footter2">
             <Enqbtn />
           </div>
+          <img src={about2} alt="about 1" className="aboutus-for-mobile" />
         </div>
       </div>
     </>

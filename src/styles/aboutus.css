@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #E8E8F7;
+  background-color: #e8e8f7;
   position: absolute;
   left: 18%;
   margin-bottom: 20px;
@@ -77,10 +77,49 @@
   color: #292967;
   margin-bottom: 8px;
 }
-.aboutus-footter ,.aboutus-footter2 {
+.aboutus-footter,
+.aboutus-footter2 {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.aboutus-for-mobile{
+  display: none;
+}
+@media (max-width: 768px) {
+  .aboutus-container {
+    position: static;
+  }
+  .aboutus-img1 , .aboutus-img12{
+    display: none;
+  }
+  .aboutus-for-mobile {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .aboutus-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .aboutus-wrapper {
+    height: fit-content;
+  }
+  .aboutus-wrapper2 {
+    height: fit-content;
+    margin-top: 50px;
+  }
+  .aboutus-container2 {
+    position: static;
+    width: 90%;
+  }
+  .aboutus-text222 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }

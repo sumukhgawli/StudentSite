@@ -80,3 +80,34 @@
   margin-left: 100px;
   height: 200px;
 }
+
+@media (max-width: 768px) {
+  .studymodes-option {
+    flex-wrap: wrap;
+  }
+  .yellow-studymodes {
+    height: 350px;
+  }
+  .studymodes-option-heading {
+    /* width: 40%; */
+    width: 140px;
+    height: 61px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+  }
+  .studymodes-option {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .studymodes-footter-desc {
+    flex-direction: column;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-top: 250px;
+  }
+  .studymodes-wrapper {
+    margin-top: 20px;
+  }
+}

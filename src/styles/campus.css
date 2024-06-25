@@ -34,11 +34,39 @@
   font-weight: 500;
   color: yellow;
 }
-.campus-bgimg{
+.campus-bgimg {
   width: 100%;
   position: absolute;
-  top:0;
+  top: 0;
   z-index: -1;
   background-color: #292967;
   height: 250px;
+}
+
+@media (max-width: 768px) {
+  .campus-container {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .carousel-sucesstor-images {
+    width: 90%;
+  }
+  .campus-heading {
+    flex-wrap: wrap;
+  }
+  .campus-bgimg {
+    height: 200px;
+  }
+  .slick-slider {
+    margin-bottom: 50px;
+  }
+  .slick-prev {
+    left: -20px;
+  }
+  .slick-next {
+    right: -20px;
+  }
 }
