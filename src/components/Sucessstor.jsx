@@ -15,7 +15,13 @@ const Sucessstor = () => {
     slidesToScroll: 3,
     responsive: [
       {
-        breakpoint: 780,
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }, {
+        breakpoint: 1000,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -31,7 +37,7 @@ const Sucessstor = () => {
             <p className="successstor-heading-text">SUCCESS</p>
             <p className="successstor-heading-subtext">Stories</p>
           </div>
-          <div className="successstor-btn-container">
+          <div className="successstor-btn-container for-deskyop-only" >
             <Enqbtn />
           </div>
         </div>
@@ -64,6 +70,9 @@ const Sucessstor = () => {
             <img src={corimg2} alt="Coronavirus" />
           </div>
         </Slider>
+        <div className="successstor-btn-container for-mobile-only">
+            <Enqbtn />
+          </div>
       </div>
     </div>
   );

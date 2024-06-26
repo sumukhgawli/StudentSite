@@ -20,7 +20,7 @@ const Campus = () => {
             <p className="campus-heading-text">OUR</p>
             <p className="campus-heading-subtext">CAMPUSES</p>
           </div>
-          <div className="campus-btn-container">
+          <div className="campus-btn-container for-desktop-only">
             <Enqbtn inverted={true} />
           </div>
         </div>
@@ -38,6 +38,9 @@ const Campus = () => {
             <img src={cor2img1} alt="Coronavirus" />
           </div> */}
         </Slider>
+        <div className="campus-btn-container for-mobile-only">
+            <Enqbtn inverted={true} />
+          </div>
       </div>
       <div className="campus-bgimg">
       </div>

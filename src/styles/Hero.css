@@ -264,9 +264,9 @@ select[name="academicYear"] {
 .form-row.academic-year select {
   height: 26px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hero {
-    height: fit-content;
+    height: fit-content !important;
   }
   .hero-content {
     flex-direction: column;
@@ -314,11 +314,12 @@ select[name="academicYear"] {
   .approch-header2 {
     font-size: 25px !important;
   }
-  .approch-wrapper{
-    margin-bottom: 5px !important; 
+  .approch-wrapper {
+    margin-bottom: 5px !important;
   }
   .approch-container {
     margin-top: 20px;
+    width: 90% !important;
   }
   .aboutus-wrapper {
     margin-top: 30px;
@@ -326,30 +327,49 @@ select[name="academicYear"] {
   .aboutus-container {
     width: 95%;
   }
+  .approch-footer {
+    margin-bottom: 15px;
+  }
   .approch-container {
     height: fit-content !important;
-  }.feature-boxes-container {
+  }
+  .feature-boxes-container {
     /* display: flex; */
     display: grid !important;
-    grid-template-columns: 1fr 1fr;}
-    .feature-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: fit-content !important;
-      height: -moz-fit-content;
-      height: fit-content;
-      margin-top: 0;
-      padding: 10px;
-      min-height: 160px;
+    grid-template-columns: 1fr 1fr;
   }
-  .approch-container{
-    width: 95%;
+  .feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content !important;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: 0;
+    padding: 10px;
+    min-height: 160px;
   }
-.approch-map{
-  object-fit: cover;
+
+  .approch-map {
+    object-fit: cover;
+  }
 }
+
+@media (max-width: 1100px) {
+  .hero {
+    height: fit-content !important;
+  }
+  .hero-content {
+    display: grid !important;
+    grid-template-rows: 1fr 1fr;
+  }
+  .hero-middle {
+    left: 70% !important;
+  }
 }
 @media (max-width: 500px) {
+  .hero-avatar {
+    margin-top: 50px;
+  }
 }

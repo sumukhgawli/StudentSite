@@ -68,7 +68,18 @@
   font-weight: 300 !important;
   font-size: 12px !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 868px) {
+  .dahisar-heading-container {
+    text-align: center;
+  }
+  .dahisar-heading {
+    justify-content: center;
+    align-items: center;
+  }
+  .dahisar-wrapper .hero-left-header2-subdata {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
   .dahisar-wrapper .hero-left-icon-container4 {
     display: flex;
     flex-wrap: wrap;
@@ -80,9 +91,18 @@
     width: 90%;
     padding: 0;
   }
-  .prepimg-studymodes {width: 90%;}
+  .prepimg-studymodes {
+    width: 90%;
+  }
 
-  .hero-left-header2-subdata {flex-wrap: wrap;}
-  .prepimg-studymodes {margin-left: 0px;margin-bottom: 10px;}
-  .dahisar-wrapper .hero-left-icon-container4-1 {width: 100%;}
+  .hero-left-header2-subdata {
+    flex-wrap: wrap;
+  }
+  .prepimg-studymodes {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .dahisar-wrapper .hero-left-icon-container4-1 {
+    width: 100%;
+  }
 }

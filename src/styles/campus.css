@@ -42,8 +42,18 @@
   background-color: #292967;
   height: 250px;
 }
-
+.for-mobile-only{
+  display: none;
+}
 @media (max-width: 768px) {
+  .for-desktop-only{
+    display: none;
+  }
+  .for-mobile-only{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
   .campus-container {
     width: 90%;
     padding-top: 10px;
@@ -56,6 +66,9 @@
   }
   .campus-heading {
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .campus-bgimg {
     height: 200px;
